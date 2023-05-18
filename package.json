@@ -1,0 +1,67 @@
+{
+  "name": "hillel-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.mjs",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marimano/hillel-coding.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marimano/hillel-coding/issues"
+  },
+  "homepage": "https://github.com/marimano/hillel-coding#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/multipart": "^7.7.3",
+    "@fastify/static": "^6.10.2",
+    "css-loader": "^6.8.1",
+    "D": "^1.0.0",
+    "fastify": "^4.19.2",
+    "gulp-babel-minify": "^0.5.2",
+    "gulp-iife-wrap": "^1.0.5",
+    "i": "^0.3.7",
+    "npm": "^9.8.1",
+    "path": "^0.12.7",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "url": "^0.11.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "babel-preset-babili": "^0.1.4",
+    "browserify": "^3.46.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-iife": "^0.4.0",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wrap": "^0.15.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "nodemon": "^3.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
